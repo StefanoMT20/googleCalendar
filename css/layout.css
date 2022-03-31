@@ -6,11 +6,10 @@
     grid-template-areas: "header header" "sidebar calendar";
 }
 .layout .header{
-   
     grid-area: header;
 }   
 .layout .sidebar{
-  
+    
     grid-area: sidebar;
 }
 .layout .calendar{

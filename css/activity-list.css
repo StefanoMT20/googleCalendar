@@ -1,0 +1,28 @@
+ 
+.activityList-title{
+    display: flex;
+    gap:4.1875rem;
+    align-items: center;
+    margin-block-end: .5rem;
+}
+.activityList-title span{
+    font: var(--body1-medium);
+    
+    display: inline-block;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+.activityList i{
+    font-size: 1.5rem;
+}
+.activityList .activity span{
+    font: var(--body1-regular);
+}
+.activity{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}

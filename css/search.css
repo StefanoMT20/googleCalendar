@@ -1,0 +1,19 @@
+.searchBar{
+    position: relative;
+}
+.searchBar input{
+    background-color: var(--gray10);
+    border: none;
+    display: block;
+    block-size: 2.5rem;
+    padding-inline: 10px;
+    border-radius: .25rem;
+    padding-inline-start: 2.5rem;
+}
+.searchBar i{
+    position: absolute;
+    z-index: 1;
+    inset-block-end: 50%;
+    transform: translateY(50%);
+    left: 1rem;
+}
