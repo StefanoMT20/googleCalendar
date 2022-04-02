@@ -4,6 +4,7 @@
 @import './timezone-cell.css';
 @import './hour-cell.css';
 @import './current-time.css';
+@import './calendarOrderDay.css';
 
 .calendar{
     color: var(--gray20);

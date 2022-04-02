@@ -1,0 +1,14 @@
+.calendar-Orderday{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 7rem repeat(25,minmax(var(--minBlockSize), var(--maxBlockSize)));
+}
+.calendar-Orderday .taskCell:first-child{
+    border: none;
+}
+.calendar-Orderday .calendarDay{
+   justify-content: center;
+   align-items: flex-start;
+   z-index: 2;
+
+}

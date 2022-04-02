@@ -17,3 +17,15 @@
     border-radius: 50%;
     transform: translateY(-50%);
 }
+.taskCell{
+    
+    
+    position: relative;
+}
+.taskCell .currentTime{
+
+    inline-size: 100%;
+    inset-block-start: 50%;
+    inset-inline-start: 0;
+    
+}
